@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact Us form</h1>
+
+    <form action="" method="POST">
+
+        <label for="name">Name</label>
+        <input type="name" name="name" id="nameTxt">
+        <br>
+            <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="emailTxt">
+        <br>
+            <br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="malebtn">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="femalebtn">
+        <br>
+            <br>
+
+        <label for="branchAddress">Branch Location</label>
+        <br>
+       
+        <label for="Jakarta">Jakarta</label>
+        <input type="radio" name="address" id="jakartabtn">
+        <br>
+        <label for="Bogor">Bogor</label>
+        <input type="radio" name="address" id="bogorbtn">
+        <br>
+        <label for="Bandung">Bandung</label>
+        <input type="radio" name="address" id="bandungbtn">
+        <br>
+        <label for="Bekasi">Bekasi</label>
+        <input type="radio" name="address" id="bekasibtn">
+        <br>
+            <br>
+
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="messageTxt" cols="40" rows="20"></textarea>
+        <br>
+            <br>
+
+        <label for="agreement">Terms & Conditions</label>
+        <input type="checkbox" name="agreement" id="agreementbox">
+        <br>
+        <input type="submit" value="submit" id="submitBtn">
+    </form>
+    <div class="footer">
+        DANBAM ALL RIGHTS RESERVED.
+    </div>
+    <script src="validation.js"></script> 
+    
+</body>
+</html>

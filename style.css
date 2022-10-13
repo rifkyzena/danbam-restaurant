@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(assets/FEtp4v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top{
+    display: flex;
+    justify-content: center;
+}
+
+.header-top img{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.header-bot{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+}
+
+.navbar, .dd-title{
+    width: 390px;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.navbar:hover, .dd-title:hover{
+    width: 390px;
+    text-align: center;
+    padding-block: 50px;
+    background-color: black;
+}
+
+.navbar a, .dd-title a{
+    text-decoration: none;
+    color: white;
+}
+
+.dd-content a{
+    text-decoration: none;
+    color: white;
+    margin-block: 38px;
+}
+
+.dd-content{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 390px;
+    background-color:black
+}
+
+.dropdown:hover .dd-content{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 250px;
+}
+
+
+.about{
+    display: flex;
+    padding: 45px;
+}
+
+.about img{
+    margin-right: 30px;
+}
+
+.about p{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 30px;
+    color: white;
+}
+
+.social{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.social img{
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+
+.c-top h1{
+    color: white;
+}
+
+
+.c-bot h1{
+    margin-top: 150px;
+    color: white;
+}
+
+.slider-outer{
+    display: flex;
+    justify-content: center;
+}
+
+.next, .prev{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 230px;
+    cursor: pointer;
+}
+
+.slider-inner{
+    margin-top: 50px;
+    position: relative;
+    float: left;
+}
+
+.slider-inner img{
+    display: none;
+}
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.footer{
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width:969px){
+    .header-top{
+        width: 100%;
+        height: 100%;
+    }
+    .header-bot{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        padding: 100px;
+    }
+
+    .about img{
+        display: flex;
+        width: 150px;
+        height: 150px;
+    }
+
+    .about p{
+        display: flex;
+        padding-top: 140px;
+    }
+
+    .c-bot{
+        display: flex;
+        
+    }
+
+    .slider-inner img{
+        width: 250px;
+        height: 250px;
+    }
+}

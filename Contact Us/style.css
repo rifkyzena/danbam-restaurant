@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(FEtp4v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+.footer{
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
