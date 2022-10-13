@@ -10,13 +10,13 @@ The requirements from DanBam are described below:
 
 
 4.	The website consists of five main pages. They are Home, Menu, About Us, Location, & Contact Us. You must create the Navigation Menu using Drop Down Menu using CSS. Below are the requirements for each page:
-•	Home
+- Home
 DanBam wants this page to show the banner, DamBam information, menu recommendation for the customer, and DanBam location. 
-•	Menu
+- Menu
 This page provides All Menu from DanBam based on their category such as Food, Drink, and Dessert. This page also shows the name of the menu, the price of the menu and provide a button for customers to order. DanBam also wants to have an image-slider using JQuery animation effect on this page to show the latest menu, & promotion.
-•	About Us
+- About Us
 This page provides an Information About DanBam Restaurant including their history and their restaurant photos. This page also Provide DanBam’s Social medias that includes Instagram, Facebook, and Youtube.
-•	Location
+- Location
 This page shows the locations of all the DanBam restaurant branches, including the address, and the city name. On this page there will also be a map of the DanBam branch location.
-•	Contact Us
+- Contact Us
 This page provides a Contact Us menu for the customer in order to get in touch with DanBam Restaurant. In order to do that the customer needs to submit some informations such as name, email, gender, DanBam’s branch location, and their message to DanBam. This page also asks the customer for agreement for send the latest information. You are also asked to create 5 kinds of form components and 5 kinds of validations. For validation, you must create it using JavaScript and don’t use regular expression.
