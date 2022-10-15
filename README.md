@@ -1,5 +1,6 @@
 ![Logo neon1](https://user-images.githubusercontent.com/55536824/195627283-5ed75d30-0432-41e7-9f8e-3d8a5220da87.png)
 
+[See the live demo here](https://rifkyzena.github.io/danbam-restaurant/)
 
 DanBam is a restaurant that is going viral in Korea. Currently, DanBam has several branches all over Korea. DanBam Restaurant offers a menu of traditional Korean food which is packaged in a modern way. 
 With technological developments, DanBam plans to expand their reach through online media, which in this case is by making a Website. First, DanBam must create a logo and company website that represents DanBam’s image. With this website's existence, DanBam hopes they can improve their service towards their customers. DanBam entrusts you as a web designer to design and create their logo and company website. 
